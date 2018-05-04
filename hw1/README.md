@@ -9,8 +9,17 @@ python regression.py
 ```
 
 ## classification
-- preprocess: follow the instruction in the clf_preprocess.ipynb
-- execute
+
+### NN classifer
+- preprocess and execute
 ```
 python clf.py
 ```
+
+### Voting classifier
+- includes LogisticRegression, RandomForestClassifier, GaussianNB
+- preprocess and execute
+```
+python clf_voting.py
+```
+
