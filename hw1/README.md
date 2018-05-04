@@ -1,5 +1,5 @@
-# NLP_2018Spring
-hw1 Fine-Grained Sentiment Analysis on Financial Microblogs
+# hw1
+Fine-Grained Sentiment Analysis on Financial Microblogs
 
 ## regression
 - preprocess: follow the instruction in the preprocess.ipynb
