@@ -22,4 +22,5 @@ python clf.py
 ```
 python clf_voting.py
 ```
-
+### Note
+check some extra experiment in experiment.ipynb
