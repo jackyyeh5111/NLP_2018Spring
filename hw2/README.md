@@ -3,11 +3,13 @@ Semantic Relations Classification
 
 ## Preprocess
 - first download ELMo pretrained weights and options from this website https://allennlp.org/elmo
+- clone allennlp (for ELMo)
 ```
 git clone https://github.com/allenai/allennlp.git
 ```
 - follow the instruction in the elmo_preprocess.ipynb
 
+- create required directories
 ```
 mkdir models   # to store model
 mkdir results  # to store result
@@ -17,17 +19,19 @@ mkdir results  # to store result
 
 ### LSTM classifer
 ```
-# choose standard lstm
+# choose standard lstm cell
 python lstm_elmo.py --process_name [your process name] --cell lstm
 
-# choose bidirectional lstm
+# choose bidirectional lstm cell
 python lstm_elmo.py --process_name [your process name] --cell bi-lstm
 
-# choose multi-layer lstm
+# choose multi-layer lstm cell
 python lstm_elmo.py --process_name [your process name] --cell multi-lstm
 ```
 
 ### CNN classifier
+
+code adapted from https://github.com/Shawn1993/cnn-text-classification-pytorch
 ```
 python cnn_clf.py --process_name [your process name]
 ```
