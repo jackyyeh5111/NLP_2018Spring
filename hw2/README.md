@@ -29,7 +29,7 @@ python lstm_elmo.py --process_name [your process name] --cell multi-lstm
 
 ### CNN classifier
 ```
-python cnn_clf.py --process_name my_first_project
+python cnn_clf.py --process_name [your process name]
 ```
 
 ## Evaluate
